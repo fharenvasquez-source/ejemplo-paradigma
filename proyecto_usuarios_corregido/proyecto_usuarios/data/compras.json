@@ -1,0 +1,47 @@
+[
+    {
+        "proveedor_id": 1,
+        "fecha": "2026-07-26T01:15:34",
+        "items": [
+            {
+                "producto_id": 1,
+                "nombre": "Balon de futbol",
+                "cantidad": 10,
+                "precio_unitario": 20.0,
+                "subtotal": 200.0
+            }
+        ],
+        "total": 200.0,
+        "id": 1
+    },
+    {
+        "proveedor_id": 1,
+        "fecha": "2026-08-01T20:18:05",
+        "items": [
+            {
+                "producto_id": 2,
+                "nombre": "Balón de baloncesto",
+                "cantidad": 10,
+                "precio_unitario": 50.0,
+                "subtotal": 500.0
+            }
+        ],
+        "total": 500.0,
+        "id": 2
+    },
+    {
+        "proveedor_id": 1,
+        "fecha": "2026-08-02T14:28:17",
+        "items": [
+            {
+                "producto_id": 1,
+                "nombre": "Balon de futbol",
+                "cantidad": 10,
+                "precio_unitario": 10.0,
+                "subtotal": 100.0
+            }
+        ],
+        "total": 100.0,
+        "id": 3
+    }
+]

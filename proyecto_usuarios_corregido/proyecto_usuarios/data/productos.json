@@ -1,0 +1,92 @@
+[
+    {
+        "nombre": "Balon de futbol",
+        "descripcion": "Balon profesional",
+        "precio": 25.99,
+        "stock": 62,
+        "categoria_id": 1,
+        "proveedor_id": 1,
+        "id": 1
+    },
+    {
+        "nombre": "Balón de baloncesto",
+        "descripcion": "Balón oficial talla 7",
+        "precio": 22.0,
+        "stock": 38,
+        "categoria_id": 2,
+        "proveedor_id": 2,
+        "id": 2
+    },
+    {
+        "nombre": "Tenis de baloncesto",
+        "descripcion": "Tenis con soporte de tobillo",
+        "precio": 55.0,
+        "stock": 10,
+        "categoria_id": 2,
+        "proveedor_id": 2,
+        "id": 3
+    },
+    {
+        "nombre": "Gafas de natación",
+        "descripcion": "Gafas antiempañantes",
+        "precio": 9.99,
+        "stock": 40,
+        "categoria_id": 3,
+        "proveedor_id": 2,
+        "id": 4
+    },
+    {
+        "nombre": "Gorro de natación",
+        "descripcion": "Gorro de silicona",
+        "precio": 5.5,
+        "stock": 60,
+        "categoria_id": 3,
+        "proveedor_id": 2,
+        "id": 5
+    },
+    {
+        "nombre": "Bicicleta de montaña",
+        "descripcion": "Rin 26, 21 velocidades",
+        "precio": 320.0,
+        "stock": 5,
+        "categoria_id": 4,
+        "proveedor_id": 2,
+        "id": 6
+    },
+    {
+        "nombre": "Casco para ciclismo",
+        "descripcion": "Casco ajustable con ventilación",
+        "precio": 28.0,
+        "stock": 22,
+        "categoria_id": 4,
+        "proveedor_id": 2,
+        "id": 7
+    },
+    {
+        "nombre": "Mancuernas 5kg (par)",
+        "descripcion": "Par de mancuernas de hierro forrado",
+        "precio": 15.0,
+        "stock": 28,
+        "categoria_id": 5,
+        "proveedor_id": 2,
+        "id": 8
+    },
+    {
+        "nombre": "Colchoneta de yoga",
+        "descripcion": "Colchoneta antideslizante 6mm",
+        "precio": 13.5,
+        "stock": 45,
+        "categoria_id": 5,
+        "proveedor_id": 2,
+        "id": 9
+    },
+    {
+        "nombre": "Caminadora",
+        "descripcion": "",
+        "precio": 5000.0,
+        "stock": 5,
+        "categoria_id": 6,
+        "proveedor_id": 2,
+        "id": 10
+    }
+]

@@ -1,0 +1,8 @@
+Usuario: admin@tienda
+Contraseña: 1234
+
+Usuario: carlos.santana@yahoo.es
+Contraseña: 1234
+
+Usuario: fernado.quintero@tienda.com
+Contraseña: 1234

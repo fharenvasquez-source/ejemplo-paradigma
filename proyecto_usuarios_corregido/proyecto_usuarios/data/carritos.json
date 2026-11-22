@@ -1,0 +1,32 @@
+[
+    {
+        "cliente_id": 1,
+        "items": [],
+        "id": 1
+    },
+    {
+        "cliente_id": 2,
+        "items": [
+            {
+                "producto_id": 1,
+                "cantidad": 5
+            }
+        ],
+        "id": 2
+    },
+    {
+        "cliente_id": 3,
+        "items": [],
+        "id": 3
+    },
+    {
+        "cliente_id": 5,
+        "items": [],
+        "id": 4
+    },
+    {
+        "cliente_id": 6,
+        "items": [],
+        "id": 5
+    }
+]

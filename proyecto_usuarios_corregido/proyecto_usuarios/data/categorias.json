@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Futbol",
+        "descripcion": "Articulos de Futbol",
+        "id": 1
+    },
+    {
+        "nombre": "Baloncesto",
+        "descripcion": "Artículos de baloncesto",
+        "id": 2
+    },
+    {
+        "nombre": "Natación",
+        "descripcion": "Artículos de natación",
+        "id": 3
+    },
+    {
+        "nombre": "Ciclismo",
+        "descripcion": "Artículos de ciclismo",
+        "id": 4
+    },
+    {
+        "nombre": "Gimnasio",
+        "descripcion": "Equipo y accesorios de gimnasio",
+        "id": 5
+    },
+    {
+        "nombre": "Ejercicio",
+        "descripcion": "Caminadora",
+        "id": 6
+    }
+]

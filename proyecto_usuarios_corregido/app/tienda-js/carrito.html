@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrito · Tienda Deportiva</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="encabezado">
+    <div class="encabezado__contenido">
+      <h1 class="encabezado__logo">🏅 Tienda Deportiva</h1>
+      <nav class="encabezado__nav">
+        <a href="index.html">Catálogo</a>
+        <a href="carrito.html" class="activo">Carrito</a>
+        <a href="mis-facturas.html">Mis facturas</a>
+        <a href="login.html" id="enlace-sesion">Iniciar sesión</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenido">
+    <h2>Tu carrito</h2>
+
+    <p id="mensaje-estado-carrito" class="mensaje-estado oculto"></p>
+
+    <div id="carrito-contenido" class="oculto">
+      <table class="tabla-carrito">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Subtotal</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="cuerpo-tabla-carrito">
+          <!-- Filas generadas dinámicamente -->
+        </tbody>
+      </table>
+
+      <div class="resumen-carrito">
+        <div class="resumen-carrito__linea resumen-carrito__linea--total">
+          <span>Total</span>
+          <span id="total-carrito">L 0.00</span>
+        </div>
+
+        <label class="check-entrega">
+          <input type="checkbox" id="entrega-domicilio" />
+          Entrega a domicilio
+        </label>
+
+        <div class="acciones-carrito">
+          <button id="boton-vaciar" class="boton boton--secundario">Vaciar carrito</button>
+          <button id="boton-generar-factura" class="boton boton--primario">Generar factura</button>
+        </div>
+
+        <p id="mensaje-factura" class="mensaje-formulario oculto"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <p>Proyecto PHP - Python - JavaScript · Paradigmas de Programación · 2026</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/sesion.js"></script>
+  <script src="js/carrito.js"></script>
+</body>
+</html>

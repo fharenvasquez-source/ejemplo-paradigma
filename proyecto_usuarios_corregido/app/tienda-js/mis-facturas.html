@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis facturas · Tienda Deportiva</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="encabezado">
+    <div class="encabezado__contenido">
+      <h1 class="encabezado__logo">🏅 Tienda Deportiva</h1>
+      <nav class="encabezado__nav">
+        <a href="index.html">Catálogo</a>
+        <a href="carrito.html">Carrito</a>
+        <a href="mis-facturas.html" class="activo">Mis facturas</a>
+        <a href="login.html" id="enlace-sesion">Iniciar sesión</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenido">
+    <h2>Mis facturas</h2>
+
+    <p id="mensaje-estado-facturas" class="mensaje-estado oculto"></p>
+
+    <div id="lista-facturas" class="lista-facturas oculto">
+      <!-- Tarjetas de factura generadas dinámicamente -->
+    </div>
+  </main>
+
+  <footer class="pie">
+    <p>Proyecto PHP - Python - JavaScript · Paradigmas de Programación · 2026</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/sesion.js"></script>
+  <script src="js/facturas.js"></script>
+</body>
+</html>

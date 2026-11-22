@@ -1,0 +1,453 @@
+:root {
+  --color-fondo: #f4f6f5;
+  --color-superficie: #ffffff;
+  --color-texto: #1c1f1e;
+  --color-texto-suave: #5c6560;
+  --color-primario: #1f7a4d;
+  --color-primario-oscuro: #17603c;
+  --color-borde: #e1e5e3;
+  --color-error: #b3261e;
+  --radio: 10px;
+  --sombra: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+/* ---- Encabezado ---- */
+
+.encabezado {
+  background-color: var(--color-superficie);
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.encabezado__contenido {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.encabezado__logo {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.encabezado__nav {
+  display: flex;
+  gap: 20px;
+}
+
+.encabezado__nav a {
+  text-decoration: none;
+  color: var(--color-texto-suave);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.encabezado__nav a.activo,
+.encabezado__nav a:hover {
+  color: var(--color-primario);
+}
+
+/* ---- Contenido general ---- */
+
+.contenido {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.barra-filtros {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.barra-filtros label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.barra-filtros select {
+  padding: 8px 12px;
+  border-radius: var(--radio);
+  border: 1px solid var(--color-borde);
+  background-color: var(--color-superficie);
+  font-size: 0.9rem;
+}
+
+/* ---- Mensajes de estado (cargando / error / vacío) ---- */
+
+.mensaje-estado {
+  padding: 40px 16px;
+  text-align: center;
+  color: var(--color-texto-suave);
+  font-size: 1rem;
+}
+
+.mensaje-estado.mensaje-error {
+  color: var(--color-error);
+  font-weight: 600;
+}
+
+.oculto {
+  display: none !important;
+}
+
+/* ---- Grilla de productos ---- */
+
+.grilla-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.tarjeta-producto {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-producto__imagen-wrap {
+  position: relative;
+  background-color: #eef1f0;
+}
+
+.tarjeta-producto__imagen {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  padding: 16px;
+}
+
+.etiqueta {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.etiqueta--agotado {
+  background-color: var(--color-error);
+  color: white;
+}
+
+.tarjeta-producto__cuerpo {
+  padding: 14px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tarjeta-producto__nombre {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.tarjeta-producto__descripcion {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--color-texto-suave);
+  min-height: 2.4em;
+}
+
+.tarjeta-producto__pie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.tarjeta-producto__precio {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--color-primario-oscuro);
+}
+
+.tarjeta-producto__stock {
+  margin: 4px 0 0;
+  font-size: 0.75rem;
+  color: var(--color-texto-suave);
+}
+
+/* ---- Botones ---- */
+
+.boton {
+  border: none;
+  border-radius: var(--radio);
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.boton--primario {
+  background-color: var(--color-primario);
+  color: white;
+}
+
+.boton--primario:hover:not(:disabled) {
+  background-color: var(--color-primario-oscuro);
+}
+
+.boton--primario:disabled {
+  background-color: #b7bdb9;
+  cursor: not-allowed;
+}
+
+/* ---- Formularios (login / registro) ---- */
+
+.contenido--angosto {
+  max-width: 420px;
+}
+
+.tarjeta-formulario {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  padding: 28px 26px;
+}
+
+.tarjeta-formulario h2 {
+  margin: 0 0 6px;
+}
+
+.texto-suave {
+  color: var(--color-texto-suave);
+  font-size: 0.9rem;
+  margin: 0 0 20px;
+}
+
+.texto-centrado {
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+.texto-centrado a {
+  color: var(--color-primario);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#form-login,
+#form-registro {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#form-login label,
+#form-registro label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+#form-login input,
+#form-registro input {
+  padding: 10px 12px;
+  border-radius: var(--radio);
+  border: 1px solid var(--color-borde);
+  font-size: 0.95rem;
+}
+
+#form-login input:focus,
+#form-registro input:focus {
+  outline: 2px solid var(--color-primario);
+  outline-offset: 1px;
+}
+
+.boton--ancho {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 0.95rem;
+}
+
+.mensaje-formulario {
+  margin: 14px 0 0;
+  font-size: 0.85rem;
+  padding: 10px 12px;
+  border-radius: var(--radio);
+}
+
+.mensaje-formulario.mensaje-error {
+  background-color: #fbeceb;
+  color: var(--color-error);
+}
+
+.mensaje-formulario.mensaje-exito {
+  background-color: #e7f5ec;
+  color: var(--color-primario-oscuro);
+}
+
+/* ---- Carrito ---- */
+
+.tabla-carrito {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  overflow: hidden;
+}
+
+.tabla-carrito th,
+.tabla-carrito td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--color-borde);
+  font-size: 0.9rem;
+}
+
+.tabla-carrito th {
+  background-color: #eef1f0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--color-texto-suave);
+}
+
+.tabla-carrito tr:last-child td {
+  border-bottom: none;
+}
+
+.input-cantidad {
+  width: 60px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--color-borde);
+}
+
+.boton-quitar {
+  border: none;
+  background: none;
+  color: var(--color-error);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.resumen-carrito {
+  margin-top: 20px;
+  max-width: 320px;
+  margin-left: auto;
+}
+
+.resumen-carrito__linea {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.resumen-carrito__linea--total {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-primario-oscuro);
+}
+
+.check-entrega {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  margin: 10px 0 16px;
+}
+
+.acciones-carrito {
+  display: flex;
+  gap: 10px;
+}
+
+.boton--secundario {
+  background-color: transparent;
+  border: 1px solid var(--color-borde);
+  color: var(--color-texto);
+}
+
+.boton--secundario:hover {
+  background-color: #eef1f0;
+}
+
+/* ---- Historial de facturas ---- */
+
+.lista-facturas {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tarjeta-factura {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  padding: 4px 18px;
+}
+
+.tarjeta-factura__resumen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.tarjeta-factura__resumen::-webkit-details-marker {
+  display: none;
+}
+
+.tarjeta-factura__numero {
+  font-weight: 700;
+}
+
+.tarjeta-factura__fecha {
+  color: var(--color-texto-suave);
+  font-size: 0.85rem;
+  flex: 1;
+}
+
+.tarjeta-factura__total {
+  font-weight: 700;
+  color: var(--color-primario-oscuro);
+}
+
+.tarjeta-factura__detalle {
+  padding: 0 0 18px;
+  border-top: 1px solid var(--color-borde);
+  padding-top: 16px;
+}
+
+/* ---- Pie de página ---- */
+
+.pie {
+  text-align: center;
+  padding: 20px;
+  color: var(--color-texto-suave);
+  font-size: 0.8rem;
+}

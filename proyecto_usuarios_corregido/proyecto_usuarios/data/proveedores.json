@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Distribuidora Deportiva SA",
+        "contacto": "Carlos Mendoza",
+        "telefono": "9999-8888",
+        "id": 1
+    },
+    {
+        "nombre": "Distribuidora Deportiva HN",
+        "contacto": "Juan Salgado",
+        "telefono": "9699-8388",
+        "id": 2
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "numero": "F-00001",
+        "fecha": "2026-07-26T01:16:22",
+        "cliente_id": 1,
+        "items": [
+            {
+                "producto_id": 1,
+                "nombre": "Balon de futbol",
+                "cantidad": 2,
+                "precio_unitario": 25.99,
+                "subtotal": 51.98
+            }
+        ],
+        "subtotal": 51.98,
+        "impuesto": 7.8,
+        "total": 59.78,
+        "entrega_domicilio": true,
+        "direccion_entrega": "string",
+        "id": 1
+    },
+    {
+        "numero": "F-00002",
+        "fecha": "2026-07-31T18:03:42",
+        "cliente_id": 3,
+        "items": [
+            {
+                "producto_id": 1,
+                "nombre": "Balon de futbol",
+                "cantidad": 1,
+                "precio_unitario": 25.99,
+                "subtotal": 25.99
+            },
+            {
+                "producto_id": 2,
+                "nombre": "Balón de baloncesto",
+                "cantidad": 1,
+                "precio_unitario": 22.0,
+                "subtotal": 22.0
+            }
+        ],
+        "subtotal": 47.99,
+        "impuesto": 7.2,
+        "total": 55.19,
+        "entrega_domicilio": false,
+        "direccion_entrega": "TGU",
+        "id": 2
+    },
+    {
+        "numero": "F-00003",
+        "fecha": "2026-08-01T17:02:49",
+        "cliente_id": 5,
+        "items": [
+            {
+                "producto_id": 1,
+                "nombre": "Balon de futbol",
+                "cantidad": 2,
+                "precio_unitario": 25.99,
+                "subtotal": 51.98
+            },
+            {
+                "producto_id": 2,
+                "nombre": "Balón de baloncesto",
+                "cantidad": 1,
+                "precio_unitario": 22.0,
+                "subtotal": 22.0
+            },
+            {
+                "producto_id": 7,
+                "nombre": "Casco para ciclismo",
+                "cantidad": 3,
+                "precio_unitario": 28.0,
+                "subtotal": 84.0
+            }
+        ],
+        "subtotal": 157.98,
+        "impuesto": 23.7,
+        "total": 181.68,
+        "entrega_domicilio": true,
+        "direccion_entrega": "Col.",
+        "id": 3
+    },
+    {
+        "numero": "F-00004",
+        "fecha": "2026-08-01T19:44:24",
+        "cliente_id": 5,
+        "items": [
+            {
+                "producto_id": 10,
+                "nombre": "Pelota",
+                "cantidad": 1,
+                "precio_unitario": 50000.0,
+                "subtotal": 50000.0
+            }
+        ],
+        "subtotal": 50000.0,
+        "impuesto": 7500.0,
+        "total": 57500.0,
+        "entrega_domicilio": false,
+        "direccion_entrega": "Col.",
+        "id": 4
+    },
+    {
+        "numero": "F-00005",
+        "fecha": "2026-08-01T23:33:16",
+        "cliente_id": 5,
+        "items": [
+            {
+                "producto_id": 8,
+                "nombre": "Mancuernas 5kg (par)",
+                "cantidad": 2,
+                "precio_unitario": 15.0,
+                "subtotal": 30.0
+            }
+        ],
+        "subtotal": 30.0,
+        "impuesto": 4.5,
+        "total": 34.5,
+        "entrega_domicilio": true,
+        "direccion_entrega": "Col.",
+        "id": 5
+    },
+    {
+        "numero": "F-00006",
+        "fecha": "2026-08-01T23:33:50",
+        "cliente_id": 5,
+        "items": [
+            {
+                "producto_id": 1,
+                "nombre": "Balon de futbol",
+                "cantidad": 1,
+                "precio_unitario": 25.99,
+                "subtotal": 25.99
+            }
+        ],
+        "subtotal": 25.99,
+        "impuesto": 3.9,
+        "total": 29.89,
+        "entrega_domicilio": false,
+        "direccion_entrega": "Col.",
+        "id": 6
+    },
+    {
+        "numero": "F-00007",
+        "fecha": "2026-08-02T14:59:51",
+        "cliente_id": 6,
+        "items": [
+            {
+                "producto_id": 3,
+                "nombre": "Tenis de baloncesto",
+                "cantidad": 5,
+                "precio_unitario": 55.0,
+                "subtotal": 275.0
+            },
+            {
+                "producto_id": 2,
+                "nombre": "Balón de baloncesto",
+                "cantidad": 5,
+                "precio_unitario": 22.0,
+                "subtotal": 110.0
+            },
+            {
+                "producto_id": 1,
+                "nombre": "Balon de futbol",
+                "cantidad": 2,
+                "precio_unitario": 25.99,
+                "subtotal": 51.98
+            }
+        ],
+        "subtotal": 436.98,
+        "impuesto": 65.55,
+        "total": 502.53,
+        "entrega_domicilio": true,
+        "direccion_entrega": "Algo",
+        "id": 7
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "nombre": "Actuaalizao",
+        "correo": "string",
+        "direccion": "string",
+        "telefono": "string",
+        "contrasena": "473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8",
+        "id": 1
+    },
+    {
+        "nombre": "Karina Yaneth Guevara Valladares",
+        "correo": "karina.guevara@gmail.com",
+        "direccion": "TGU",
+        "telefono": "99878525",
+        "contrasena": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "id": 2
+    },
+    {
+        "nombre": "Juan Perez",
+        "correo": "juan.prez@hotmail.es",
+        "direccion": "TGU",
+        "telefono": "85977425",
+        "contrasena": "f6ccb3e8d609012238c0b39e60b2c9632b3cdede91e035dad1de43469768f4cc",
+        "id": 3
+    },
+    {
+        "nombre": "Orlin Moises Munguia Salgado",
+        "correo": "orlin@gmail.com",
+        "direccion": "Col.",
+        "telefono": "3344-5533",
+        "contrasena": "1db4a0041876241916ff8b935a46b680de655e06456c77c1d2970688ea2838b9",
+        "id": 4
+    },
+    {
+        "nombre": "Juan Perez",
+        "correo": "Juan@perez.com",
+        "direccion": "Col.",
+        "telefono": "3322-5522",
+        "contrasena": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "id": 5
+    },
+    {
+        "nombre": "prueba final",
+        "correo": "pruebaf@gmail.com",
+        "direccion": "Algo",
+        "telefono": "3245-7639",
+        "contrasena": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "id": 6
+    },
+    {
+        "nombre": "Juan Salgado",
+        "correo": "juanSalgado@gmail.com",
+        "direccion": "Blvd. Morazan",
+        "telefono": "9997-2445",
+        "contrasena": "2a8610aefdd0028c6bf074dd18721c0ef8bc43241cc7a653d7aedf2036bdf6b3",
+        "id": 7
+    }
+]

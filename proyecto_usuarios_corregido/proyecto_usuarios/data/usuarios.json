@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "admin",
+        "correo": "admin@tienda",
+        "rol": "Administrador",
+        "contrasena": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "id": 1
+    },
+    {
+        "nombre": "Carlos Santana",
+        "correo": "carlos.santana@yahoo.es",
+        "rol": "Administrador",
+        "contrasena": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "id": 2
+    },
+    {
+        "nombre": "Fernando Quintero",
+        "correo": "fernado.quintero@tienda.com",
+        "rol": "Administrador",
+        "contrasena": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "id": 3
+    }
+]

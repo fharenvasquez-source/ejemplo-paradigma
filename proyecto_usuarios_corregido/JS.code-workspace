@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "../PAC II 2026/Paradigmas de la Programacion/II Parcial/JS"
+		},
+		{
+			"path": "../PAC II 2026/Paradigmas de la Programacion/II Parcial/Tarea Laboratorio JS"
+		},
+		{
+			"path": "../PAC II 2026/Paradigmas de la Programacion/II Parcial/Tarea Laboratorio Python"
+		},
+		{
+			"path": "../../../../php/proyectosPHP"
+		},
+		{
+			"path": "../PAC II 2026/Paradigmas de la Programacion/II Parcial/Practica Para Examen"
+		},
+		{
+			"path": "../proyecto_usuarios"
+		},
+		{
+			"path": "../app"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

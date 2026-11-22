@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Artículos Deportivos</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="encabezado">
+    <div class="encabezado__contenido">
+      <h1 class="encabezado__logo">🏅 Tienda Deportiva</h1>
+      <nav class="encabezado__nav">
+        <a href="index.html" class="activo">Catálogo</a>
+        <a href="carrito.html">Carrito</a>
+        <a href="mis-facturas.html">Mis facturas</a>
+        <a href="login.html" id="enlace-sesion">Iniciar sesión</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenido">
+    <section class="barra-filtros">
+      <label for="filtro-categoria">Categoría:</label>
+      <select id="filtro-categoria">
+        <option value="">Todas</option>
+      </select>
+    </section>
+
+    <p id="mensaje-estado" class="mensaje-estado oculto"></p>
+
+    <section id="contenedor-productos" class="grilla-productos oculto">
+      <!-- Las tarjetas de producto se generan dinámicamente con JS -->
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>Proyecto PHP - Python - JavaScript · Paradigmas de Programación · 2026</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/sesion.js"></script>
+  <script src="js/productos.js"></script>
+</body>
+</html>
